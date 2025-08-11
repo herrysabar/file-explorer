@@ -1,15 +1,7 @@
 # file-explorer
 
-To install dependencies:
+setup sql
 
-```bash
-bun install
-```
+setup .env in packages/backend :
+DATABASE_URL="mysql://USER:PASSWORD@localhost:3306/file_explorer_db"
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.19. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
